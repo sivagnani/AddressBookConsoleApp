@@ -1,9 +1,5 @@
 ﻿using AddressBook.Models;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AddressBook.Contracts
 {
@@ -15,6 +11,5 @@ namespace AddressBook.Contracts
         bool UpdateEmployee(Employee newEmployee);
         bool DeleteEmployee(int employeeId);
         bool ValidateProperties(string propertyName, string property);
-
     }
 }
