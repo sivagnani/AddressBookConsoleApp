@@ -19,7 +19,7 @@ namespace AddressBook.Providers
         {
             return context.Employees.ToList<Employee>();
         }
-        public bool AddEmployee(Employee newEmployee) {
+        public bool Add<T>(T obj) {
             bool status= false;
             try
             {
